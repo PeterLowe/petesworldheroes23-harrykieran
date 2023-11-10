@@ -128,7 +128,31 @@ int main()
 		}
 	}
 
+	if (letter == 'e' || letter == 'E') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Ecuador, El Salvador, " << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Estonia" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Egypt, Equatorial Guinea, Eritrea, Ethiopia" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "East Timor" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "No E countries in the rest of the world" << std::endl;
+		}
+	}
 
+	
 
 
 
