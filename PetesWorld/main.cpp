@@ -176,6 +176,30 @@ int main()
 		}
 	}
 
+	if (letter == 'g' || letter == 'G') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Greenland, Grenada, Guadeloupe, Guatemala, Guyana" << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Germany, Gibraltar, Greece" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Gabon, The Gambia, Ghana, Guinea, Guinea-Bissau" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "Georgia, " << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "Guam" << std::endl;
+		}
+	}
+
 	
 
 
