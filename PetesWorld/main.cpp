@@ -58,27 +58,28 @@ int main()
 
 	if (letter == 'b' || letter == 'B') // Written by Harry
 	{
-		if (region == 1)
+		if (region == 1)//Americas
 		{
 			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil" << std::endl;
 		}
-		if (region == 2)
+		if (region == 2)//Europe
 		{
 			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
 		}
-		if (region == 3)
+		if (region == 3)//Africa
 		{
 			std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
 		}
-		if (region == 4)
+		if (region == 4)//Asia
 		{
 			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei" << std::endl;
 		}
-		if (region == 5)
+		if (region == 5)//ROW
 		{
 			std::cout << "There are no countries starting with B in the other areas of the world." << std::endl;
 		}
 	}
+<<<<<<< HEAD
 	if (letter == 'x' || letter == 'X') //written by kieran
 	{
 		if (region == 1)
@@ -103,6 +104,35 @@ int main()
 		}
 	}
 	if (letter == 'y' || letter == 'Y') //written by kieran
+=======
+
+	if (letter == 'c' || letter == 'C') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Canada, Cayman Islands, Chile, Colombia, Costa Rica, Cuba" << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Croatia, Cyprus, Czech Republic" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo, Congo, Côte D'ivoire" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "Cambodia, China, Christmas Island, Cocos Islands" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "Cook Islands" << std::endl;
+		}
+	}
+	
+
+	if (letter == 'y' || letter == 'Y')
+>>>>>>> e5962dbd01f18315874003541249ea312ce4520d
 	{
 		if (region == 1)
 		{
