@@ -104,7 +104,29 @@ int main()
 		}
 	}
 
-
+	if (letter == 'd' || letter == 'D') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Dominica, Dominican Rep." << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "No D countries in Asia" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "No D countries in the rest of the world" << std::endl;
+		}
+	}
 
 
 
