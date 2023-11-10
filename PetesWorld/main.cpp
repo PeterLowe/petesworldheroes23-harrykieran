@@ -228,7 +228,7 @@ int main()
 	{
 		if (region == 1)//Americas
 		{
-			std::cout << "" << std::endl;
+			std::cout << "No I countries in the Americas" << std::endl;
 		}
 		if (region == 2)//Europe
 		{
@@ -247,31 +247,6 @@ int main()
 			std::cout << "No I countries in the rest of the world" << std::endl;
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	if (letter == 't' || letter == 'T') // written by Kieran
 	{
