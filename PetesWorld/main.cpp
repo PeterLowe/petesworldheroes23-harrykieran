@@ -224,7 +224,29 @@ int main()
 		}
 	}
 
-
+	if (letter == 'i' || letter == 'I') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "" << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Iceland, Ireland, Italy" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Ivory Coast" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "India, Indonesia, Iran, Iraq, Israel" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "No I countries in the rest of the world" << std::endl;
+		}
+	}
 
 
 
