@@ -103,9 +103,83 @@ int main()
 			std::cout << "Cook Islands" << std::endl;
 		}
 	}
-	
 
-	if (letter == 'y' || letter == 'Y')
+	if (letter == 'd' || letter == 'D') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Dominica, Dominican Rep." << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "No D countries in Asia" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "No D countries in the rest of the world" << std::endl;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	if (letter == 'x' || letter == 'X') //written by kieran
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Xs in the rest of the world" << std::endl;
+		}
+	}
+
+
+	if (letter == 'y' || letter == 'Y') //written by kieran
 	{
 		if (region == 1)
 		{
