@@ -199,9 +199,31 @@ int main()
 
 
 
+	if (letter == 'v' || letter == 'V') //written by Kieran
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezuela, British Virgin Islands, U.S. Virgin Islands" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu" << std::endl;
+		}
+	}
 
-
-	if (letter == 'w' || letter == 'W')
+	if (letter == 'w' || letter == 'W') //written by Kieran
 	{
 		if (region == 1)
 		{
@@ -225,7 +247,7 @@ int main()
 		}
 	}
 
-	if (letter == 'x' || letter == 'X') //written by kieran
+	if (letter == 'x' || letter == 'X') //written by Kieran
 	{
 		if (region == 1)
 		{
@@ -250,7 +272,7 @@ int main()
 	}
 
 
-	if (letter == 'y' || letter == 'Y') //written by kieran
+	if (letter == 'y' || letter == 'Y') //written by Kieran
 	{
 		if (region == 1)
 		{
