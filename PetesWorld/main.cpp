@@ -79,8 +79,30 @@ int main()
 			std::cout << "There are no countries starting with B in the other areas of the world." << std::endl;
 		}
 	}
-
-	if (letter == 'y' || letter == 'Y')
+	if (letter == 'x' || letter == 'X') //written by kieran
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Xs in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Xs in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Xs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Xs in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Xs in the rest of the world" << std::endl;
+		}
+	}
+	if (letter == 'y' || letter == 'Y') //written by kieran
 	{
 		if (region == 1)
 		{
