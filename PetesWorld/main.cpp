@@ -55,6 +55,31 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
+
+	if (letter == 'b' || letter == 'B') // Written by Harry
+	{
+		if (region == 1)
+		{
+			std::cout << "Bahamas, Barbados, Belize, Bermuda, Bolivia, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bahrain, Bangladesh, Bhutan, Brunei" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no countries starting with B in the other areas of the world." << std::endl;
+		}
+	}
+
 	if (letter == 'y' || letter == 'Y')
 	{
 		if (region == 1)
