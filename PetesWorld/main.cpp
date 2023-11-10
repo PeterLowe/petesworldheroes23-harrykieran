@@ -200,7 +200,29 @@ int main()
 		}
 	}
 
-	
+	if (letter == 'h' || letter == 'H') // Written by Harry
+	{
+		if (region == 1)//Americas
+		{
+			std::cout << "Haiti, Honduras" << std::endl;
+		}
+		if (region == 2)//Europe
+		{
+			std::cout << "Holy See, Hungary" << std::endl;
+		}
+		if (region == 3)//Africa
+		{
+			std::cout << "No H countries in Africa" << std::endl;
+		}
+		if (region == 4)//Asia
+		{
+			std::cout << "Hong Kong" << std::endl;
+		}
+		if (region == 5)//ROW
+		{
+			std::cout << "No H countries in the rest of the world" << std::endl;
+		}
+	}
 
 
 
