@@ -223,6 +223,37 @@ int main()
 
 
 
+
+
+
+
+
+
+
+
+	if (letter == 'u' || letter == 'U') // written by Kieran
+	{
+		if (region == 1)
+		{
+			std::cout << "United States of America, Uruguay" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Ukraine, United Kingdom" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Uganda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "United Arab Emirates, Uzbekistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Us in the rest of the world" << std::endl;
+		}
+	}
 	if (letter == 'v' || letter == 'V') //written by Kieran
 	{
 		if (region == 1)
