@@ -273,7 +273,28 @@ int main()
 
 
 
-
+	if (letter == 't' || letter == 'T') // written by Kieran
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago, Turks and Caicos Islands" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ts in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet, Timor-Leste, Turkey, Turkmenistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tonga, Tuvalu" << std::endl;
+		}
 
 	if (letter == 'u' || letter == 'U') // written by Kieran
 	{
